@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# encodeR
+# encodeR <a href="https://github.com/C-Juliette/encodeR"><img src="man/figures/logo_encodeR.png" align="right" height="138" /></a>
 
 <!-- badges: start -->
 [![Version](https://img.shields.io/badge/Version-0.0.1-blue.svg)](https://github.com/C-Juliette/encodeR)
