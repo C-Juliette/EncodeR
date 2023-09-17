@@ -10,7 +10,7 @@ Juliette Chiapello
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of EncodeR is to …
+The goal of encodeR is to …
 
 ## Installation
 
@@ -25,7 +25,7 @@ You can install the development version of EncodeR like so:
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(EncodeR)
+library(encodeR)
 ## basic example code
 ```
 
