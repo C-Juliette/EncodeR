@@ -5,14 +5,20 @@ Juliette Chiapello
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# EncodeR
+# encodeR
 
 <!-- badges: start -->
 
+[![Version](https://img.shields.io/badge/Version-0.0.1-blue.svg)](https://github.com/C-Juliette/encodeR)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/C-Juliette/encodeR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/C-Juliette/encodeR/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/C-Juliette/encodeR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/C-Juliette/encodeR?branch=master)
+[![codecov](https://codecov.io/gh/C-Juliette/encodeR/graph/badge.svg?token=3ALAGITL3E)](https://codecov.io/gh/C-Juliette/encodeR)
 <!-- badges: end -->
 
-The goal of encodeR is to …
+The goal of encodeR is to build new …
 
 ## Installation
 
