@@ -1,7 +1,7 @@
-README
+encodeR
 ================
 Juliette Chiapello
-2023-09-17
+Last update : 2023-09-17
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -13,19 +13,29 @@ Juliette Chiapello
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/C-Juliette/encodeR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/C-Juliette/encodeR/actions/workflows/R-CMD-check.yaml)
-[![Codecov test
-coverage](https://codecov.io/gh/C-Juliette/encodeR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/C-Juliette/encodeR?branch=master)
 [![codecov](https://codecov.io/gh/C-Juliette/encodeR/graph/badge.svg?token=3ALAGITL3E)](https://codecov.io/gh/C-Juliette/encodeR)
 <!-- badges: end -->
 
-The goal of encodeR is to build new …
+Some data tables contain multiple pieces of data within a single entry.
+This is the case in the table below, which lists multiple programming
+languages per person, within a single entry.
+
+![](%22\man\exp1.png%22)
+
+The purpose of this package is to facilitate one-hot encoding for easy
+conversion between the following two formats:
+
+![](%22\man\exp2.png%22)
+
+The package also allows for performing descriptive statistics, for
+example, to find the most frequent combinations of inputs.
 
 ## Installation
 
-You can install the development version of EncodeR like so:
+You can install the development version of encodeR like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+devtools::install_github("C-Juliette/encodeR")
 ```
 
 ## Example
