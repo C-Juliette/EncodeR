@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(EncodeR)
+library(encodeR)
 
-test_check("EncodeR")
+test_check("encodeR")
