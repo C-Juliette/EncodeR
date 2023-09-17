@@ -1,5 +1,4 @@
 ---
-title: "encodeR"
 author: "Juliette Chiapello"
 date: "\nLast update : `r Sys.Date()`"
 output: github_document

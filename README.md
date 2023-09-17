@@ -1,5 +1,3 @@
-encodeR
-================
 Juliette Chiapello
 Last update : 2023-09-17
 
