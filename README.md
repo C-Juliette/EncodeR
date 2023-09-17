@@ -20,12 +20,12 @@ Some data tables contain multiple pieces of data within a single entry.
 This is the case in the table below, which lists multiple programming
 languages per person, within a single entry.
 
-![](%22\man\exp1.png%22)
+<a href="https://github.com/C-Juliette/encodeR"><img src="man/figures/exp1.png" align="center" height="160" /></a>
 
 The purpose of this package is to facilitate one-hot encoding for easy
 conversion between the following two formats:
 
-![](%22\man\exp2.png%22)
+<a href="https://github.com/C-Juliette/encodeR"><img src="man/figures/exp2.png" align="center" height="300" /></a>
 
 The package also allows for performing descriptive statistics, for
 example, to find the most frequent combinations of inputs.
