@@ -5,7 +5,7 @@ Last update : 2023-09-17
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# encodeR
+# encodeR <a href="https://github.com/C-Juliette/encodeR"><img src="man/figures/logo_encodeR.png" align="right" height="138" /></a>
 
 <!-- badges: start -->
 

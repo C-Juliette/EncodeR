@@ -1,7 +1,7 @@
 ---
 title: "encodeR"
 author: "Juliette Chiapello"
-date: "Last update : `r Sys.Date()`"
+date: "\nLast update : `r Sys.Date()`"
 output: github_document
 ---
 
