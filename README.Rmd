@@ -16,11 +16,14 @@ knitr::opts_chunk$set(
 )
 ```
 
-# EncodeR
+# encodeR
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/C-Juliette/encodeR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/C-Juliette/encodeR/actions/workflows/R-CMD-check.yaml)
 [![check-standard](https://github.com/C-Juliette/encodeR/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/C-Juliette/encodeR/actions/workflows/check-standard.yaml)
+[![CRAN status](https://www.r-pkg.org/badges/version/encodeR)](https://CRAN.R-project.org/package=encodeR)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Codecov test coverage](https://codecov.io/gh/C-Juliette/encodeR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/C-Juliette/encodeR?branch=master)
 <!-- badges: end -->
 
 The goal of encodeR is to ...
