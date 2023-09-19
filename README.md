@@ -11,8 +11,7 @@ Last update : 2023-09-19
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/C-Juliette/encodeR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/C-Juliette/encodeR/actions/workflows/R-CMD-check.yaml)
-[![Codecov test
-coverage](https://codecov.io/gh/C-Juliette/encodeR/branch/main/graph/badge.svg)](https://codecov.io/gh/C-Juliette/encodeR?branch=main)
+[![test-coverage](https://github.com/C-Juliette/encodeR/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/C-Juliette/encodeR/actions/workflows/test-coverage.yaml)
 [![codecov](https://codecov.io/gh/C-Juliette/encodeR/graph/badge.svg?token=3ALAGITL3E)](https://codecov.io/gh/C-Juliette/encodeR)
 <!-- badges: end -->
 
