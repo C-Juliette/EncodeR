@@ -4,21 +4,14 @@
 \alias{find_categories_in_string}
 \title{find_categories_in_string}
 \usage{
-find_categories_in_string(
-  my_string,
-  sep = ",",
-  remove_whitespaces = TRUE,
-  unique = TRUE
-)
+find_categories_in_string(my_string, sep = ",", unique = TRUE)
 }
 \arguments{
 \item{my_string}{a string with separators. Ex : "A, B, C"}
 
 \item{sep}{separator used in the string. Ex : ","}
 
-\item{remove_whitespaces}{if true, the categories contained in the string will be rendered by removing unnecessary spaces at the beginning and end of the string}
-
-\item{unique}{if TRUE, eliminate duplicates (keep only one instance of each category)}
+\item{unique}{if TRUE, eliminates duplicates (keeps only one instance of each category)}
 }
 \value{
 a vector that holds strings, with each string representing a category
@@ -28,7 +21,7 @@ find_categories_in_string
 }
 \examples{
 find_categories_in_string("C++, C, Scala")
+find_categories_in_string("C++; C; Scala", sep=";")
 find_categories_in_string("C++, C, Scala, C")
-find_categories_in_string("C++, C, Scala, C", remove_whitespace=FALSE)
 find_categories_in_string("C++, C, Scala, C", unique=FALSE)
 }

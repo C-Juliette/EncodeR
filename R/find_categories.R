@@ -8,7 +8,8 @@
 #' @export
 #'
 #' @examples
-#' df <- tibble::tibble(First_name=c("Marina", "Jane", "Elliot"), Programming_languages=c("C, Scala","C, C++, R, Python", "C++, Python"))
+#' df <- tibble::tibble(First_name=c("Marina", "Jane", "Elliot"),
+#' Programming_languages=c("C, Scala","C, C++, R, Python", "C++, Python"))
 #' df |>  find_categories(Programming_languages)
 find_categories <- function(df, categories_col, sep=","){
   all_categories <-

@@ -1,5 +1,5 @@
 Juliette Chiapello
-Last update : 2023-09-17
+Last update : 2023-09-19
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -11,6 +11,8 @@ Last update : 2023-09-17
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/C-Juliette/encodeR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/C-Juliette/encodeR/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/C-Juliette/encodeR/branch/main/graph/badge.svg)](https://codecov.io/gh/C-Juliette/encodeR?branch=main)
 [![codecov](https://codecov.io/gh/C-Juliette/encodeR/graph/badge.svg?token=3ALAGITL3E)](https://codecov.io/gh/C-Juliette/encodeR)
 <!-- badges: end -->
 
