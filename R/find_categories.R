@@ -17,5 +17,5 @@ find_categories <- function(df, categories_col, sep=","){
     dplyr::summarize(all_categories = paste({{ categories_col }}, collapse=sep)) |>
     dplyr::pull() |>
     find_categories_in_string(sep)
-  all_categories
+  return(all_categories)
 }

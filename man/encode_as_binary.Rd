@@ -25,4 +25,5 @@ encodeAsBinary
 df <- tibble::tibble(First_name=c("Marina", "Jane", "Elliot"),
 Programming_languages=c("C, Scala","C, C++, R, Python", "C++, Python"))
 df |>  encode_as_binary(Programming_languages)
+
 }

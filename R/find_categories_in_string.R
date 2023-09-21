@@ -17,5 +17,5 @@ find_categories_in_string <- function(my_string, sep = ",", unique=TRUE){
 
   if(unique){categories <- categories |> unique()}
 
-  categories
+  return(categories)
 }
