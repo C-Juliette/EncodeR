@@ -10,6 +10,8 @@ category_match_indicator(categories_str, category, sep = ",")
 \item{categories_str}{todo}
 
 \item{category}{todo}
+
+\item{sep}{todo}
 }
 \value{
 todo

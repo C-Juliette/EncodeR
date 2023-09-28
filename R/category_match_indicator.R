@@ -2,6 +2,7 @@
 #'
 #' @param categories_str todo
 #' @param category todo
+#' @param sep todo
 #'
 #' @return todo
 #' @export
