@@ -4,7 +4,7 @@
 \alias{category_match_indicator}
 \title{category_match_indicator}
 \usage{
-category_match_indicator(categories_str, category)
+category_match_indicator(categories_str, category, sep = ",")
 }
 \arguments{
 \item{categories_str}{todo}

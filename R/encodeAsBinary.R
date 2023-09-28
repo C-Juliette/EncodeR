@@ -17,16 +17,19 @@
 encode_as_binary <- function(df, categories_col, sep = ",",
                            keep_categories_col = FALSE) {
 
-  all_categories <- df |> find_categories(rlang::enquo(categories_col))
-  for (category in all_categories) {
+  all_categories <- df |> find_categories({{ categories_col }}, sep=sep)
+  for (category in eval(all_categories)) {
     df <- df |>
       dplyr::mutate(
-        category:=purrr::map2_int(!!rlang::enquo(categories_col), category, category_match_indicator)
+        !!category:=purrr::map2_int({{ categories_col }}, category, ~category_match_indicator(.x, .y, sep = sep))
       )
   }
+  if(!keep_categories_col){df <- df |> dplyr::select(-c({{ categories_col }}))}
 
-  return(all_categories)
+  df
 
 }
+
+
 
 

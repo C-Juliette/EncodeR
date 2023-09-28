@@ -45,3 +45,9 @@ test_that("8 - Category match with trailing space", {
   expected <- 1
   expect_equal(actual, expected)
 })
+
+test_that("8 - Category match with trailing space", {
+  actual <- category_match_indicator("C ; R", "C", sep=";")
+  expected <- 1
+  expect_equal(actual, expected)
+})

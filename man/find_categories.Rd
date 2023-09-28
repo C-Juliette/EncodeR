@@ -22,5 +22,5 @@ find_categories
 \examples{
 df <- tibble::tibble(First_name=c("Marina", "Jane", "Elliot"),
 Programming_languages=c("C, Scala","C, C++, R, Python", "C++, Python"))
-df |>  find_categories(Programming_languages)
+df |> find_categories(Programming_languages)
 }
