@@ -4,12 +4,12 @@
 \alias{find_categories}
 \title{find_categories}
 \usage{
-find_categories(df, categories_col, sep = ",")
+find_categories(df, column, sep = ",")
 }
 \arguments{
 \item{df}{a dtaframe}
 
-\item{categories_col}{the name of the column containing string with categories inside}
+\item{column}{the name of the column containing string with categories inside}
 
 \item{sep}{separator used in the strings. Ex : ,"}
 }

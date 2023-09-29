@@ -42,3 +42,23 @@ test_that("6 - Correctly keeps duplicated categories when unique is set to FALSE
   expected <- c("C", "C++", "Scala", "C")
   expect_equal(actual, expected)
 })
+
+### NA
+
+test_that("7 - Test with NA", {
+  actual <- find_categories_in_string(NA)
+  expected <- NA
+  expect_equal(actual, expected)
+})
+
+test_that("8 - Test with empty string", {
+  actual <- find_categories_in_string("")
+  expected <- ""
+  expect_equal(actual, expected)
+})
+
+test_that("9 - Test with unique value", {
+  actual <- find_categories_in_string("C")
+  expected <- c("C")
+  expect_equal(actual, expected)
+})

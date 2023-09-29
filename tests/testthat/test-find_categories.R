@@ -25,3 +25,22 @@ test_that("3 - Correctly identifies categories in hyphen-separated strings", {
   expected <- c("C", "Scala", "C++", "R", "Python")
   expect_equal(actual, expected)
 })
+
+### Test with NA
+
+test_that("4 - Test with NA", {
+  df <- tibble::tibble(First_name=c("Marina", "Jane", "Elliot"),
+                       Programming_languages=c("C, Scala", "C, C++, R, Python", NA))
+  actual <- df |>  find_categories(Programming_languages)
+  expected <- c("C", "Scala", "C++", "R", "Python")
+  expect_equal(actual, expected)
+})
+
+test_that("4 - Test with empty string", {
+  df <- tibble::tibble(First_name=c("Marina", "Jane", "Elliot"),
+                       Programming_languages=c("C, Scala", "C, C++, R, Python", ""))
+  actual <- df |>  find_categories(Programming_languages)
+  expected <- c("C", "Scala", "C++", "R", "Python")
+  expect_equal(actual, expected)
+})
+

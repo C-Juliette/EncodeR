@@ -13,9 +13,14 @@
 #' find_categories_in_string("C++, C, Scala, C")
 #' find_categories_in_string("C++, C, Scala, C", unique=FALSE)
 find_categories_in_string <- function(my_string, sep = ",", unique=TRUE){
+
+  if(is.na(my_string)){return(NA)}
+  else {
+
   categories <- my_string |> stringr::str_split_1(sep) |> stringr::str_trim()
 
   if(unique){categories <- categories |> unique()}
 
   return(categories)
+  }
 }

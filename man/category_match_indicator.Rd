@@ -4,21 +4,24 @@
 \alias{category_match_indicator}
 \title{category_match_indicator}
 \usage{
-category_match_indicator(categories_str, category, sep = ",")
+category_match_indicator(categories, category, sep = ",")
 }
 \arguments{
-\item{categories_str}{todo}
+\item{categories}{a String. Ex : "Blue, Green, Yellow"}
 
-\item{category}{todo}
+\item{category}{a String. Ex : "Blue". The goal is to check if this category exists in categories = "Blue, Green, Yellow"}
 
-\item{sep}{todo}
+\item{sep}{the separator used in the string. Ex : in categories = "Blue, Green, Yellow", sep=",".}
 }
 \value{
-todo
+a Boolean. Is category in categories ? True or False.
 }
 \description{
 category_match_indicator
 }
 \examples{
+category_match_indicator("Blue, Green, Yellow", "Blue")
+category_match_indicator("Blue, Green, Yellow", "Red")
+category_match_indicator("Blue, Green, Yellow", "low")
 category_match_indicator("C, C++, R", "R")
 }
